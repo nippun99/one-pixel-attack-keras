@@ -1,12 +1,12 @@
 # One Pixel Attack
 
-[![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md) [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE) [![Gitter chat](https://img.shields.io/badge/chat-on%20gitter-blue.svg)](https://gitter.im/one-pixel-attack-keras/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/hyperparticle/one-pixel-attack-keras/blob/master/1_one-pixel-attack-cifar10.ipynb) [![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)](CONTRIBUTING.md) [![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
 [![Who would win?](images/who-would-win.jpg "one thicc boi that's who")](https://www.reddit.com/r/ProgrammerHumor/comments/79g0m6/one_pixel_attack_for_fooling_deep_neural_networks/?ref=share&ref_source=link)
 
 How simple is it to cause a deep neural network to misclassify an image if an attacker is only allowed to modify the color of one pixel and only see the prediction probability? Turns out it is very simple. In many cases, an attacker can even cause the network to return any answer they want.
 
-The following project is a Keras reimplementation and tutorial of ["One pixel attack for fooling deep neural networks"](https://arxiv.org/abs/1710.08864).
+The following project is a Keras reimplementation and tutorial of ["One pixel attack for fooling deep neural networks"](https://arxiv.org/abs/1710.08864). The official code for the paper can be found [here](https://github.com/Carina02/One-Pixel-Attack).
 
 ## How It Works
 
@@ -26,9 +26,9 @@ See below for some examples of successful attacks:
 
 ## Getting Started
 
-Just want to read? [View the first tutorial notebook online](https://nbviewer.jupyter.org/github/Hyperparticle/one-pixel-attack-keras/blob/master/1_one-pixel-attack-cifar10.ipynb).
+Need a GPU or just want to read? [View the first tutorial notebook with Google Colab](https://colab.research.google.com/github/hyperparticle/one-pixel-attack-keras/blob/master/1_one-pixel-attack-cifar10.ipynb).
 
-To run the code in the tutorial, a dedicated GPU suitable for running with Keras (`tensorflow-gpu`) is recommended. Python 3.5+ required.
+To run the code in the tutorial locally, a dedicated GPU suitable for running with Keras (`tensorflow-gpu`) is recommended. Python 3.5+ required.
 
 1. Clone the repository.
 
